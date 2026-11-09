@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->
+         <table>
+          <tr>
+            <!-- th stand for Table Heading -->
+            <th>Speaker</th>
+            <th>Title</th>
+            <th>Location</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Elder David A. Bednar</td>
+            <td>BYU-Idaho 25th Anniversary Devotional</td>
+            <td>BYU-Idaho I-Center</td>
+            <td>2026</td>
+          </tr>
+          <tr>
+            <td>Elder James O. Fantone</td>
+            <td>The Battle is the Lord's</td>
+            <td>BYU-Idaho I-Center</td>
+            <td>2026</td>
+          </tr>
+          <tr>
+            <td>Rob Garrett</td>
+            <td>He Will Make More of You</td>
+            <td>BYU-Idaho I-Center</td>
+            <td>2026</td>
+          </tr>
+         </table>
+
+         <form>
+          <label for="speaker-name">Speaker: </label>
+          <input type="text" id="speaker-name" required>
+
+          <label for="talk-title">Title: </label>
+          <input type="text" id="talk-title">
+
+          <label for="location">Location: </label>
+          <input type="text" id="location">
+
+          <label for="year">Year: </label>
+          <input type="text" id="year">
+
+
+
+          <input type="submit" id="submit-button">
+         </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

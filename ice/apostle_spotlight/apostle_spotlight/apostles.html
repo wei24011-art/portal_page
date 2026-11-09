@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: 1fr 800px 1fr;
+        }
+        #apostle-layout {
+            background-image: url(images/christus.webp);
+            background-size: 150%;
+            background-position: 70% center;
+            border: 8px solid #000000;
+            border-radius: 30px;
+            color: #e8eced;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            grid-column: 2;
+            height: 600px;
+           
+        }
+        #first-presidency {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        #eyering, #christofferson {
+            height: 120px;
+            width: 120px;
+        }
+        #oaks {
+            height: 140px;
+            width: 140px;
+        }
+        #apostles{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column: 2;
+            margin: 0 150px;
+
+        }
+        .apostle-picture {
+            width: 80px;
+            height: 80px;
+            
+        }
+        img {
+            object-fit: cover;
+            border-radius: 50%;
+            border: 8px solid #e8eced;
+        }
+    </style>
+</head>
+<body>
+    <div id="apostle-layout">
+        <h1>First Presidency</h1>
+        <div id="first-presidency">
+            <img src="images/eyring.webp" alt="eyering" class="apostle-picture" id="eyering">
+            <img src="images/oaks.webp" alt="oaks" class="apostle-picture" id="oaks">
+            <img src="images/christofferson.webp" alt="christofferson" class="apostle-picture" id="christofferson">
+        </div>
+        <h2>Quorum of the Twelve Apostles</h2>
+        <div id="apostles">
+            <img src="images/uchtdorf.webp" alt="uchtdorf" class="apostle-picture">
+            <img src="images/bednar.webp" alt="bednar" class="apostle-picture">
+            <img src="images/cook.webp" alt="cook" class="apostle-picture">
+            <img src="images/anderson.webp" alt="andserson" class="apostle-picture">
+            <img src="images/rasband.webp" alt="rasband" class="apostle-picture">
+            <img src="images/stevenson.webp" alt="stevenson" class="apostle-picture">
+            <img src="images/renlund.webp" alt="renlund" class="apostle-picture">
+            <img src="images/gong.webp" alt="gong" class="apostle-picture">
+            <img src="images/soares.webp" alt="soares" class="apostle-picture">
+            <img src="images/kearon.webp" alt="kearon" class="apostle-picture">
+            <img src="images/causse.webp" alt="causse" class="apostle-picture">
+            <img src="images/gilbert.webp" alt="gilbert" class="apostle-picture">
+        </div>
+    </div>
+</body>
+</html>
